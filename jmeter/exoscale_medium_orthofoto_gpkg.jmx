@@ -18,17 +18,17 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
         <longProp name="ThreadGroup.start_time">1175121299000</longProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">0.5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
         <longProp name="ThreadGroup.end_time">1175121299000</longProp>
       </ThreadGroup>
       <hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">1000</stringProp>
+          <stringProp name="LoopController.loops">200</stringProp>
         </LoopController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Orthofoto" enabled="true">
@@ -76,7 +76,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">;</stringProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="filename">/Users/stefan/sources/wms-performance-testing/jmeter/2056.csv</stringProp>
+            <stringProp name="filename">/home/ubuntu/wms-performance-testing/jmeter/2056.csv</stringProp>
             <stringProp name="variableNames">width,height,bbox</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <boolProp name="quotedData">false</boolProp>
@@ -94,17 +94,17 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
         <longProp name="ThreadGroup.start_time">1175121299000</longProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">0.5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">2</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
         <longProp name="ThreadGroup.end_time">1175121299000</longProp>
       </ThreadGroup>
       <hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">500</stringProp>
+          <stringProp name="LoopController.loops">400</stringProp>
         </LoopController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Orthofoto" enabled="true">
@@ -152,7 +152,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">;</stringProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="filename">/Users/stefan/sources/wms-performance-testing/jmeter/2056.csv</stringProp>
+            <stringProp name="filename">/home/ubuntu/wms-performance-testing/jmeter/2056.csv</stringProp>
             <stringProp name="variableNames">width,height,bbox</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <boolProp name="quotedData">false</boolProp>
@@ -170,17 +170,17 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
         <longProp name="ThreadGroup.start_time">1175121299000</longProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">0.5</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">2</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
         <longProp name="ThreadGroup.end_time">1175121299000</longProp>
       </ThreadGroup>
       <hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">200</stringProp>
+          <stringProp name="LoopController.loops">400</stringProp>
         </LoopController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Orthofoto" enabled="true">
@@ -228,7 +228,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">;</stringProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="filename">/Users/stefan/sources/wms-performance-testing/jmeter/2056.csv</stringProp>
+            <stringProp name="filename">/home/ubuntu/wms-performance-testing/jmeter/2056.csv</stringProp>
             <stringProp name="variableNames">width,height,bbox</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <boolProp name="quotedData">false</boolProp>
@@ -246,20 +246,20 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
         <longProp name="ThreadGroup.start_time">1175121299000</longProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">2</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
         <longProp name="ThreadGroup.end_time">1175121299000</longProp>
       </ThreadGroup>
       <hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">200</stringProp>
+          <stringProp name="LoopController.loops">400</stringProp>
         </LoopController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="AVWMS" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Orthofoto" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="bbox" elementType="HTTPArgument">
@@ -304,7 +304,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">;</stringProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="filename">/home/stefan/Projekte/qgis-wms-benchmark/csv/2056.csv</stringProp>
+            <stringProp name="filename">/home/ubuntu/wms-performance-testing/jmeter/2056.csv</stringProp>
             <stringProp name="variableNames">width,height,bbox</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <boolProp name="quotedData">false</boolProp>
@@ -315,7 +315,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="16" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="16" enabled="false">
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.num_threads">16</stringProp>
@@ -391,7 +391,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="32" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="32" enabled="false">
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.num_threads">32</stringProp>
@@ -467,14 +467,14 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="64" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="64" enabled="false">
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.num_threads">64</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <longProp name="ThreadGroup.start_time">1175121299000</longProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">64</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">3</stringProp>
@@ -532,7 +532,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">;</stringProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="filename">/home/stefan/Projekte/qgis-wms-benchmark/csv/2056.csv</stringProp>
+            <stringProp name="filename">/home/ubuntu/wms-performance-testing/jmeter/2056.csv</stringProp>
             <stringProp name="variableNames">width,height,bbox</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <boolProp name="quotedData">false</boolProp>
@@ -578,7 +578,7 @@
               <boolProp name="HTTPArgument.use_equals">true</boolProp>
               <boolProp name="HTTPArgument.always_encode">false</boolProp>
               <stringProp name="Argument.name">FORMAT</stringProp>
-              <stringProp name="Argument.value">image/jpeg</stringProp>
+              <stringProp name="Argument.value">image/png</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="LAYERS" elementType="HTTPArgument">
@@ -674,7 +674,7 @@
       <hashTree/>
       <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="ContentTypeCheck" enabled="true">
         <collectionProp name="Asserion.test_strings">
-          <stringProp name="237968272">Content-Type: image/jpeg</stringProp>
+          <stringProp name="-1654885887">Content-Type: image/png</stringProp>
         </collectionProp>
         <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
         <boolProp name="Assertion.assume_success">false</boolProp>
@@ -744,7 +744,7 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">/home/ubuntu/wms-performance-testing/2c-4gb-4fcgi.jtl</stringProp>
         <boolProp name="useGroupName">true</boolProp>
       </ResultCollector>
       <hashTree/>
