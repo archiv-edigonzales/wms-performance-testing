@@ -744,7 +744,7 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">/home/ubuntu/wms-performance-testing/2c-4gb-4fcgi.jtl</stringProp>
+        <stringProp name="filename">/home/ubuntu/wms-performance-testing/4c-16gb-2fcgi.jtl</stringProp>
         <boolProp name="useGroupName">true</boolProp>
       </ResultCollector>
       <hashTree/>
