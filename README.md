@@ -39,6 +39,8 @@ wget https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2015.rgb/ch.so.agi.orthofoto
 wget https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2016.rgb/ch.so.agi.orthofoto_2016.rgb.gpkg
 wget https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2017.rgb/ch.so.agi.orthofoto_2017.rgb.gpkg
 wget https://sos-ch-dk-2.exo.io/ch.so.agi.wms-performance-test/orthofoto_gpkg.qgs 
+wget https://sos-ch-dk-2.exo.io/ch.so.agi.wms-performance-test/orthofoto_geotiff_34.qgs 
+wget https://sos-ch-dk-2.exo.io/ch.so.agi.wms-performance-test/orthofoto_geotiff_218.qgs 
 cd ..
 chmod -R 777 data/
 cd
@@ -67,6 +69,7 @@ git clone https://github.com/edigonzales/wms-performance-testing.git
 jmeter -g <log file> -o <Path to output folder>
 
 docker run -p 80:80 -v /data:/data -e QGIS_FCGI_MIN_PROCESSES=2 -e QGIS_FCGI_MAX_PROCESSES=2 sogis/qgis-server-base:3.4
+docker run -p 80:80 -v /data:/data -e QGIS_FCGI_MIN_PROCESSES=2 -e QGIS_FCGI_MAX_PROCESSES=2 sogis/qgis-server-base:2.18
 
 ssh -i "/home/vagrant/.config/exoscale/instances/c4fe99b1-1dc9-414f-954e-c7830ba81195/id_rsa" ubuntu@194.182.165.135
 ssh -i "/home/vagrant/.config/exoscale/instances/82c506b2-1700-4d87-a53a-630d4099ec1d/id_rsa" ubuntu@194.182.165.160
