@@ -1,0 +1,603 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.3-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>47</srsid>
+      <srid>2056</srid>
+      <authid>EPSG:2056</authid>
+      <description>CH1903+ / LV95</description>
+      <projectionacronym>somerc</projectionacronym>
+      <ellipsoidacronym>bessel</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-group name="ch.so.agi.orthofoto_rgb" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+      <layer-tree-layer name="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2017.rgb/ch.so.agi.orthofoto_2017.rgb.tif" checked="Qt::Checked" expanded="1" source="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2017.rgb/ch.so.agi.orthofoto_2017.rgb.tif" id="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2017_rgb_ch_so_agi_orthofoto_2017_rgb_tif_9319d420_267d_48f5_9366_26b9d04bf0bc" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2016.rgb/ch.so.agi.orthofoto_2016.rgb.tif" checked="Qt::Checked" expanded="1" source="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2016.rgb/ch.so.agi.orthofoto_2016.rgb.tif" id="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2016_rgb_ch_so_agi_orthofoto_2016_rgb_tif_07f1f183_72d9_439b_8f23_d295b5340ba4" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2015.rgb/ch.so.agi.orthofoto_2015.rgb.tif" checked="Qt::Checked" expanded="1" source="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2015.rgb/ch.so.agi.orthofoto_2015.rgb.tif" id="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2015_rgb_ch_so_agi_orthofoto_2015_rgb_tif_cba0351c_59e9_4e84_9688_24dd66777b97" providerKey="gdal">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <custom-order enabled="0">
+      <item>_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2015_rgb_ch_so_agi_orthofoto_2015_rgb_tif_cba0351c_59e9_4e84_9688_24dd66777b97</item>
+      <item>_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2016_rgb_ch_so_agi_orthofoto_2016_rgb_tif_07f1f183_72d9_439b_8f23_d295b5340ba4</item>
+      <item>_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2017_rgb_ch_so_agi_orthofoto_2017_rgb_tif_9319d420_267d_48f5_9366_26b9d04bf0bc</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" intersection-snapping="0" type="1" unit="1" tolerance="12" enabled="0">
+    <individual-layer-settings/>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>2589625</xmin>
+      <ymin>1211425</ymin>
+      <xmax>2647375</xmax>
+      <ymax>1277575</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>47</srsid>
+        <srid>2056</srid>
+        <authid>EPSG:2056</authid>
+        <description>CH1903+ / LV95</description>
+        <projectionacronym>somerc</projectionacronym>
+        <ellipsoidacronym>bessel</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendgroup name="ch.so.agi.orthofoto_rgb" checked="Qt::Checked" open="true">
+      <legendlayer checked="Qt::Checked" name="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2017.rgb/ch.so.agi.orthofoto_2017.rgb.tif" open="true" drawingOrder="-1" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" visible="1" layerid="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2017_rgb_ch_so_agi_orthofoto_2017_rgb_tif_9319d420_267d_48f5_9366_26b9d04bf0bc"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Checked" name="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2016.rgb/ch.so.agi.orthofoto_2016.rgb.tif" open="true" drawingOrder="-1" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" visible="1" layerid="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2016_rgb_ch_so_agi_orthofoto_2016_rgb_tif_07f1f183_72d9_439b_8f23_d295b5340ba4"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Checked" name="/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2015.rgb/ch.so.agi.orthofoto_2015.rgb.tif" open="true" drawingOrder="-1" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" visible="1" layerid="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2015_rgb_ch_so_agi_orthofoto_2015_rgb_tif_cba0351c_59e9_4e84_9688_24dd66777b97"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer autoRefreshEnabled="0" type="raster" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2591000</xmin>
+        <ymin>1243000</ymin>
+        <xmax>2642000</xmax>
+        <ymax>1276000</ymax>
+      </extent>
+      <id>_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2015_rgb_ch_so_agi_orthofoto_2015_rgb_tif_cba0351c_59e9_4e84_9688_24dd66777b97</id>
+      <datasource>/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2015.rgb/ch.so.agi.orthofoto_2015.rgb.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2015.rgb/ch.so.agi.orthofoto_2015.rgb.tif</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList useSrcNoData="0" bandNo="2"/>
+        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList useSrcNoData="0" bandNo="4"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="multibandcolor" blueBand="3" alphaBand="4" redBand="1" greenBand="2" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>212</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>212</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>210</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" saturation="0" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" type="raster" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2592000</xmin>
+        <ymin>1213000</ymin>
+        <xmax>2627000</xmax>
+        <ymax>1246000</ymax>
+      </extent>
+      <id>_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2016_rgb_ch_so_agi_orthofoto_2016_rgb_tif_07f1f183_72d9_439b_8f23_d295b5340ba4</id>
+      <datasource>/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2016.rgb/ch.so.agi.orthofoto_2016.rgb.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2016.rgb/ch.so.agi.orthofoto_2016.rgb.tif</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList useSrcNoData="0" bandNo="2"/>
+        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList useSrcNoData="0" bandNo="4"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="multibandcolor" blueBand="3" alphaBand="4" redBand="1" greenBand="2" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>214</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>211</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>209</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" saturation="0" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" type="raster" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2618000</xmin>
+        <ymin>1233000</ymin>
+        <xmax>2646000</xmax>
+        <ymax>1258000</ymax>
+      </extent>
+      <id>_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2017_rgb_ch_so_agi_orthofoto_2017_rgb_tif_9319d420_267d_48f5_9366_26b9d04bf0bc</id>
+      <datasource>/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2017.rgb/ch.so.agi.orthofoto_2017.rgb.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>/vsicurl/https://sos-ch-dk-2.exo.io/ch.so.agi.orthofoto-2017.rgb/ch.so.agi.orthofoto_2017.rgb.tif</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList useSrcNoData="0" bandNo="2"/>
+        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList useSrcNoData="0" bandNo="4"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="multibandcolor" blueBand="3" alphaBand="4" redBand="1" greenBand="2" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>208</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>211</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>218</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeStrength="100" colorizeOn="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" saturation="0" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2015_rgb_ch_so_agi_orthofoto_2015_rgb_tif_cba0351c_59e9_4e84_9688_24dd66777b97"/>
+    <layer id="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2016_rgb_ch_so_agi_orthofoto_2016_rgb_tif_07f1f183_72d9_439b_8f23_d295b5340ba4"/>
+    <layer id="_vsicurl_https___sos_ch_dk_2_exo_io_ch_so_agi_orthofoto_2017_rgb_ch_so_agi_orthofoto_2017_rgb_tif_9319d420_267d_48f5_9366_26b9d04bf0bc"/>
+  </layerorder>
+  <properties>
+    <WFSLayers type="QStringList"/>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSRootName type="QString">Orthofoto-Geotiff-34</WMSRootName>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <DefaultStyles>
+      <Line type="QString"></Line>
+      <ColorRamp type="QString"></ColorRamp>
+      <Opacity type="double">1</Opacity>
+      <Fill type="QString"></Fill>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSJpegLayers>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PAL>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <TextFormat type="int">0</TextFormat>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+    </PAL>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSLayers>
+    <WMSServiceTitle type="QString">AGI Kanton Solothurn</WMSServiceTitle>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+    </Gui>
+    <Measure>
+      <Ellipsoid type="QString">bessel</Ellipsoid>
+    </Measure>
+    <WMSUrl type="QString"></WMSUrl>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSExtent type="QStringList">
+      <value>2589258.7080078125</value>
+      <value>1212509.25</value>
+      <value>2648061.2919921875</value>
+      <value>1262520.75</value>
+    </WMSExtent>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSRestrictedComposers type="QStringList"/>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSRestrictedLayers type="QStringList"/>
+    <WMSCrsList type="QStringList">
+      <value>EPSG:2056</value>
+      <value>EPSG:4326</value>
+    </WMSCrsList>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Paths>
+      <Absolute type="bool">true</Absolute>
+    </Paths>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Stefan Ziegler</author>
+    <creation>2019-04-13T10:17:12</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
